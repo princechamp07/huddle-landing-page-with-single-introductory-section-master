@@ -1,0 +1,168 @@
+.attribution { font-size: 11px; margin-top: 10%; margin-left: -70%;}
+    .attribution a { color: #fff; }
+  
+    body{
+        background-color: hsl(257, 40%, 49%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mob{
+        width: 0;
+        opacity: 0;
+        height: 0;
+    }
+
+    .logo{
+        margin-left: -80%;
+        margin-top: -38%;
+        position: absolute;
+        width: 200px;
+    }
+
+    .mockups{
+        margin-left: -175%;
+        margin-bottom: -90%;
+    }
+
+    .bg{
+        margin-left: 10%;
+    }
+    
+    h1{
+        z-index: 1;
+        font-weight: 600;
+        font-size: 45px;
+        width: 90%;
+    }
+
+    .content{
+        width: 90%;
+        margin-left: -70%;
+        color:#fff ;
+        margin-top: 20%;
+        
+    }
+
+    P{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btn{
+        text-decoration: none;
+        color: grey;
+        background-color:white ;
+        border-radius: 50px;
+        padding: 20px 70px;
+        font-weight: 600;
+    }
+
+    .btn:hover{
+        background-color:  hsl(300, 69%, 71%);
+        color: #fff;
+    }
+
+    .icon{
+        margin-top: 20%;
+    }
+
+    .fa {
+        padding: 15px;
+        padding-bottom: 22px;
+        padding-right: 18px;
+        width: 10px;
+        height: 5px;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 100px;
+        margin-right: 10px;
+      }
+
+      .fa-facebook , .fa-instagram , .fa-twitter{
+        color: white;
+    }
+
+.fa:hover{
+    border: 2px solid hsl(300, 69%, 71%);
+
+}
+
+.fa-facebook:hover , .fa-instagram:hover, .fa-twitter:hover{
+    color: hsl(300, 69%, 71%);
+
+}
+
+@media only screen and (max-width:860px){
+
+    body{
+        margin: 20%;
+    }
+
+    .bg{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .mob{
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        margin-right: -125%;
+    
+        margin-top: -150%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .mockups{
+        margin: 0;
+        width: 400px;
+        margin-left: 35%;
+    }
+
+    .content{
+        margin: 0;
+        width: 480px;
+        margin-left: 35%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    
+    P{
+        width: 400px;
+        padding: 20px;
+    }
+
+    .logo{
+       margin: 0;
+       margin-left:-20%;
+       padding-bottom: 20px;
+       margin-top: -160%;
+        position: absolute;
+    }
+
+    .attribution{
+        margin: 0;
+        margin-left: 40%;
+    }
+
+    .btn{
+        margin-left: 10%;
+    }
+
+    .icon{
+        margin-left: 50%;
+    }
+   
+}
